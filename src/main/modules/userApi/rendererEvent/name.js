@@ -1,12 +1,17 @@
 const names = {
+  initEnv: '',
   init: '',
   request: '',
   response: '',
   openDevTools: '',
+  showUpdateAlert: '',
+  getProxy: '',
+  proxyUpdate: '',
 }
 
 
 for (const key of Object.keys(names)) {
   names[key] = `userApi_${key}`
 }
-module.exports = names
+
+export default names
